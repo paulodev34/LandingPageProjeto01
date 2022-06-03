@@ -4,7 +4,9 @@
 }
 
 html,body{
-	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url('../imagens/fundo2.jpeg');
 }
 
 .clear{
@@ -17,20 +19,23 @@ html,body{
 	margin: auto 0;
 }
 
+/*--começo do Header--*/
+
 header{
-	background-color: #ccc;
-	padding: 40px;
+	background-color: #033C50;
+	padding: 30px;
 }
 
 .logo{
 	float: left;
-	margin: 0 40px;
+	margin: 0 110px;
 	width: 100px;
-	height: 50px;
+	height: 30px;
 	background: blue;
 }
 
 li{
+	padding: 7px 9px;
 	float: right;
 }
 
@@ -39,6 +44,74 @@ li{
 }
 
 ul a{
-	padding: 0 20px;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size:18px;
 	color: white;
 }
+
+/*--fim do Header--*/
+
+/*--inicio do formuário--*/
+
+section.container{
+	float: left;
+	margin: 5px 100px;
+}
+
+.for-container{
+	float: left;
+	padding-top: 40px;
+	margin: 8px 10px 8px;
+}
+
+.for-container h2{
+	font-weight: italic;
+	font-size: 23px;
+	display: inline-block;
+	background-color: #033C50;
+	text-align: left;
+	padding: 20px 40px 0;
+	width: 345px;
+	height: 80px;
+	color: white;
+}
+
+.form-container{
+	padding: 10px 10px 0;
+	width: 405px;
+	height: 105px;
+	background-color: #033C50;
+}
+
+.for-container p{
+	color: white;
+	text-transform: uppercase;
+}
+
+.for-container form input[type=text]{
+	height: 40px;
+	width: 400px;
+	margin-top: 8px;
+    border-bottom-color: #ccc;
+    border-radius: 10px 10px;
+}
+
+.form-container input{
+	background: transparent;
+	color: white;
+}
+
+form input[type=submit]{
+	margin-left: 25% ;
+	width: 200px;
+	height: 40px;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px #ccc;
+	border-bottom-color: #ccc;
+	text-transform: uppercase;
+	border-radius: 10px 10px ;
+}
+
+/*fim do formuário8*/
+
