@@ -1,74 +1,62 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans', sans-serif;';
 }
 
 html,body{
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-image: url('../imagens/fundo2.jpeg');
+	height: 100%;
+	background-color: black;
 }
 
 .clear{
 	clear: both;
 }
 
-.container{
-	max-width: 1280px;	
+img{
+	position: relative;
+	height: 100%;
 	width: 100%;
-	margin: auto 0;
-}
-
-/*--começo do Header--*/
-
-header{
-	background-color: #033C50;
-	padding: 30px;
 }
 
 .logo{
+	position: absolute;
+	z-index: 1;
 	float: left;
-	margin: 0 110px;
+	margin: 40px 110px;
 	width: 100px;
 	height: 30px;
 	background: blue;
 }
 
-li{
-	padding: 7px 9px;
-	float: right;
+
+.midia-social{
+    position:absolute;
+    right:30px;
+    top:140px;
 }
 
- ul {
-	list-style-type: none;
-}
-
-ul a{
-	text-decoration: none;
-	padding: 10px 15px;
-	font-size:18px;
-	color: white;
-}
-
-/*--fim do Header--*/
-
-/*--inicio do formuário--*/
-
-section.container{
-	float: left;
-	margin: 5px 100px;
+.midia-social img{
+    display:block;
+    width:30px;
+    margin:20px 0;
+    border-radius: 10px 10px;
+    top: 50px;
 }
 
 .for-container{
-	float: left;
-	padding-top: 40px;
+	position: absolute;
+	width: 400px;
+	height: 105%;
+	top: 15%;
+	left: 60px;
+	padding-top: 0;
 	margin: 8px 10px 8px;
 }
 
 .for-container h2{
 	font-weight: italic;
 	font-size: 23px;
-	display: inline-block;
 	background-color: #033C50;
 	text-align: left;
 	padding: 20px 40px 0;
@@ -113,5 +101,86 @@ form input[type=submit]{
 	border-radius: 10px 10px ;
 }
 
-/*fim do formuário8*/
+/*fim do formuário*/
 
+
+
+
+.container-sessao2{
+	width: 100%;
+}
+
+.container-chamada{
+	float: left;
+	padding: 140px 0 90px 0;
+	margin-top: -2.5%;
+	width: 50%;
+	color: white;
+	background: #033C50;
+}
+
+.container-chamada h2{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.container-chamada2{
+	max-width: 600px;
+	float: right;
+	padding: 0 30px;
+}
+
+.container-chamada2 p{
+	line-height: 35px;
+	font-size: 16px;
+	margin-top: 12px;
+	color: gray;
+}
+
+.container-sessao2 img{
+	position: absolute;
+	width: 50%;
+	height: 400px;
+	padding: 140px 0 90px 0;
+}
+
+////////////////////////////////////////
+
+.container-sessao3{
+	width: 100%;
+}
+
+.container-chamada3{
+	float: right;
+	padding: 140px 0 90px 0;
+	margin-top: -2.5%;
+	width: 50%;
+	color: white;
+	background: #033C50;
+}
+
+.container-chamada4 h2{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.container-chamada4{
+	max-width: 900px;
+	float: right;
+	padding: 0 30px;
+}
+
+.container-chamada4 p{
+	line-height: 35px;
+	font-size: 16px;
+	margin-top: 12px;
+	color: gray;
+}
+
+.container-sessao3 img{
+	position: absolute;
+	width: 50%;
+	height: 400px;
+	padding: 140px 0 90px 0;
